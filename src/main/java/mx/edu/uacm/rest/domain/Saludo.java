@@ -1,15 +1,14 @@
 package mx.edu.uacm.rest.domain;
 
 public class Saludo {
-	
-	private long incrementador; 
+
+	private long incrementador;
 	private String descripcion;
 	
-
-
 	public Saludo(long incrementado, String formato) {
+		
 		this.incrementador = incrementado;
-		this.descripcion = descripcion;  
+		this.descripcion = formato;
 	}
 
 	/**
@@ -39,4 +38,8 @@ public class Saludo {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+	
+	
+
 }
+
